@@ -1,0 +1,46 @@
+{
+    "blockName": [
+      {
+        "mimeType": "video/*",
+        "value": "Embed"
+      }
+    ],
+    "copyMode": [
+      {
+        "mimeType": "image/*",
+        "value": "reference"
+      }
+    ],
+    "filterSchema": [
+      {
+        "header": "File Types",
+        "groupKey": "FileTypeGroup",
+        "fields": [
+          {
+            "excludeTags": ["image/*", "video/*", "application/pdf"],
+            "element": "checkbox",
+            "name": "type",
+            "defaultValue": [
+              "image/*",
+              "video/*"
+            ],
+            "options": [
+              {
+                "label": "Images",
+                "value": "image/*"
+              },
+              {
+                "label": "Videos",
+                "value": "video/*"
+              },
+              {
+                "label": "PDFs",
+                "value": "application/pdf"
+              }
+            ],
+            "orientation": "horizontal"
+          }
+        ]
+      }
+    ]
+}

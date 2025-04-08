@@ -1,0 +1,15 @@
+{
+    "project": "Boilerplate",
+    "plugins": [
+        {
+            "id": "asset-library",
+            "title": "AEM Assets Library",
+            "environments": ["edit"],
+            "url": "https://experience.adobe.com/solutions/CQ-assets-selectors/static-assets/resources/franklin/asset-selector.html?extConfigUrl=https%3A%2F%2Fmain--alshaya-hm--aemsites.aem.live%2Ftools%2Fassets-selector%2Fconfig.json",
+            "isPalette": true,
+            "includePaths": ["**.docx**"],
+            "passConfig": false,
+            "paletteRect": "top: 50px; bottom: 10px; right: 10px; left: auto; width:400px; height: calc(100vh - 60px)"
+        }
+    ]
+}
