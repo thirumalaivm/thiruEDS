@@ -9,6 +9,12 @@
         "value": "new image Embed"
       }
     ],
+    "copyMode": [ 
+    	{ 
+        	"mimeType": "image/*", 
+        	"value": "reference" 
+    	} 
+	], 
     "blockTemplate": [
  	{
    		"mimeType": "video/*",
@@ -57,5 +63,10 @@
             	} 
         	] 
     	} 
-    ]
+    ],
+    
+ 	"assetDomainMapping": {
+    	  "delivery-p66302-e574366.adobeaemcloud.com":"mediapreprod.store.testdomain.com"
+ 	}
+
 }
