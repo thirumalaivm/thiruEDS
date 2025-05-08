@@ -2,7 +2,11 @@
     "blockName": [
       {
         "mimeType": "video/*",
-        "value": "new Embed"
+        "value": "new video Embed"
+      },
+      {
+        "mimeType": "image/*",
+        "value": "new image Embed"
       }
     ],
     "copyMode": [
