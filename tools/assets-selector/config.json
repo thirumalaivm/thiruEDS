@@ -45,6 +45,17 @@
             "orientation": "horizontal"
           }
         ]
-      }
+      },
+      { 
+        	"header": "Assets Tags", 
+        	"groupKey": "AssetTagsGroup", 
+        	"fields": [ 
+            	{ 
+                	"element": "taggroup", 
+                	"name": "property=metadata.application.xcm:keywords.id", 
+                	"columns": 3 
+            	} 
+        	] 
+    	} 
     ]
 }
