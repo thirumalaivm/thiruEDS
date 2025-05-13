@@ -15,12 +15,6 @@
         	"value": "reference" 
     	} 
 	], 
-    "blockTemplate": [
- 	{
-   		"mimeType": "image/*",
-   		"value": "<a href="${deliveryUrl}">${name}${height}${width}</a>"
- 	}
-    ],
     "filterSchema": [
       {
         "header": "File Types",
