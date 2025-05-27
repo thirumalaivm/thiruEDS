@@ -12,7 +12,7 @@
     "copyMode": [ 
     	{ 
         	"mimeType": "image/*", 
-        	"value": "reference" 
+        	"value": "use-alt-text" 
     	} 
 	], 
     "filterSchema": [
