@@ -9,12 +9,6 @@
         "value": "new image Embed"
       }
     ],
-    "copyMode": [ 
-    	{ 
-        	"mimeType": "image/*", 
-        	"value": "use-alt-text" 
-    	} 
-	], 
     "filterSchema": [
       {
         "header": "File Types",
