@@ -9,6 +9,12 @@
         "value": "new image Embed"
       }
     ],
+    "blockTemplate": [
+ 	{
+   		"mimeType": "image/*",
+   		"value": "<img src="${deliveryUrl}" alt="thirublock${alt}"/>"
+ 	}
+    ],
     "filterSchema": [
       {
         "header": "File Types",
