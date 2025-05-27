@@ -12,7 +12,7 @@
     "blockTemplate": [
  	{
    		"mimeType": "image/*",
-   		"value": "<img src="${deliveryUrl}" alt="thirublock${alt}"/>"
+   		"value": "<img src='${deliveryUrl}' alt='thirublock${alt}'/>"
  	}
     ],
     "filterSchema": [
